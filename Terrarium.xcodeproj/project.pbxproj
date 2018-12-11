@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A877668521BFDF2E000BA6F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A877668421BFDF2E000BA6F6 /* AppDelegate.swift */; };
+		A877668721BFDF2E000BA6F6 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A877668621BFDF2E000BA6F6 /* art.scnassets */; };
+		A877668921BFDF2E000BA6F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A877668821BFDF2E000BA6F6 /* ViewController.swift */; };
+		A877668C21BFDF2E000BA6F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877668A21BFDF2E000BA6F6 /* Main.storyboard */; };
+		A877668E21BFDF32000BA6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A877668D21BFDF32000BA6F6 /* Assets.xcassets */; };
+		A877669121BFDF32000BA6F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877668F21BFDF32000BA6F6 /* LaunchScreen.storyboard */; };
+		A877669C21BFDF32000BA6F6 /* TerrariumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A877669B21BFDF32000BA6F6 /* TerrariumTests.swift */; };
+		A87766A721BFDF32000BA6F6 /* TerrariumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87766A621BFDF32000BA6F6 /* TerrariumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A877669821BFDF32000BA6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A877667921BFDF2D000BA6F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A877668021BFDF2E000BA6F6;
+			remoteInfo = Terrarium;
+		};
+		A87766A321BFDF32000BA6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A877667921BFDF2D000BA6F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A877668021BFDF2E000BA6F6;
+			remoteInfo = Terrarium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A877668121BFDF2E000BA6F6 /* Terrarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terrarium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A877668421BFDF2E000BA6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A877668621BFDF2E000BA6F6 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A877668821BFDF2E000BA6F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A877668B21BFDF2E000BA6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A877668D21BFDF32000BA6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A877669021BFDF32000BA6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A877669221BFDF32000BA6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A877669721BFDF32000BA6F6 /* TerrariumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerrariumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A877669B21BFDF32000BA6F6 /* TerrariumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrariumTests.swift; sourceTree = "<group>"; };
+		A877669D21BFDF32000BA6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87766A221BFDF32000BA6F6 /* TerrariumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerrariumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87766A621BFDF32000BA6F6 /* TerrariumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrariumUITests.swift; sourceTree = "<group>"; };
+		A87766A821BFDF32000BA6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A877667E21BFDF2E000BA6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877669421BFDF32000BA6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877669F21BFDF32000BA6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A877667821BFDF2D000BA6F6 = {
+			isa = PBXGroup;
+			children = (
+				A877668321BFDF2E000BA6F6 /* Terrarium */,
+				A877669A21BFDF32000BA6F6 /* TerrariumTests */,
+				A87766A521BFDF32000BA6F6 /* TerrariumUITests */,
+				A877668221BFDF2E000BA6F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A877668221BFDF2E000BA6F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A877668121BFDF2E000BA6F6 /* Terrarium.app */,
+				A877669721BFDF32000BA6F6 /* TerrariumTests.xctest */,
+				A87766A221BFDF32000BA6F6 /* TerrariumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A877668321BFDF2E000BA6F6 /* Terrarium */ = {
+			isa = PBXGroup;
+			children = (
+				A877668421BFDF2E000BA6F6 /* AppDelegate.swift */,
+				A877668621BFDF2E000BA6F6 /* art.scnassets */,
+				A877668821BFDF2E000BA6F6 /* ViewController.swift */,
+				A877668A21BFDF2E000BA6F6 /* Main.storyboard */,
+				A877668D21BFDF32000BA6F6 /* Assets.xcassets */,
+				A877668F21BFDF32000BA6F6 /* LaunchScreen.storyboard */,
+				A877669221BFDF32000BA6F6 /* Info.plist */,
+			);
+			path = Terrarium;
+			sourceTree = "<group>";
+		};
+		A877669A21BFDF32000BA6F6 /* TerrariumTests */ = {
+			isa = PBXGroup;
+			children = (
+				A877669B21BFDF32000BA6F6 /* TerrariumTests.swift */,
+				A877669D21BFDF32000BA6F6 /* Info.plist */,
+			);
+			path = TerrariumTests;
+			sourceTree = "<group>";
+		};
+		A87766A521BFDF32000BA6F6 /* TerrariumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A87766A621BFDF32000BA6F6 /* TerrariumUITests.swift */,
+				A87766A821BFDF32000BA6F6 /* Info.plist */,
+			);
+			path = TerrariumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A877668021BFDF2E000BA6F6 /* Terrarium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87766AB21BFDF32000BA6F6 /* Build configuration list for PBXNativeTarget "Terrarium" */;
+			buildPhases = (
+				A877667D21BFDF2E000BA6F6 /* Sources */,
+				A877667E21BFDF2E000BA6F6 /* Frameworks */,
+				A877667F21BFDF2E000BA6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terrarium;
+			productName = Terrarium;
+			productReference = A877668121BFDF2E000BA6F6 /* Terrarium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A877669621BFDF32000BA6F6 /* TerrariumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87766AE21BFDF32000BA6F6 /* Build configuration list for PBXNativeTarget "TerrariumTests" */;
+			buildPhases = (
+				A877669321BFDF32000BA6F6 /* Sources */,
+				A877669421BFDF32000BA6F6 /* Frameworks */,
+				A877669521BFDF32000BA6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A877669921BFDF32000BA6F6 /* PBXTargetDependency */,
+			);
+			name = TerrariumTests;
+			productName = TerrariumTests;
+			productReference = A877669721BFDF32000BA6F6 /* TerrariumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A87766A121BFDF32000BA6F6 /* TerrariumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87766B121BFDF32000BA6F6 /* Build configuration list for PBXNativeTarget "TerrariumUITests" */;
+			buildPhases = (
+				A877669E21BFDF32000BA6F6 /* Sources */,
+				A877669F21BFDF32000BA6F6 /* Frameworks */,
+				A87766A021BFDF32000BA6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87766A421BFDF32000BA6F6 /* PBXTargetDependency */,
+			);
+			name = TerrariumUITests;
+			productName = TerrariumUITests;
+			productReference = A87766A221BFDF32000BA6F6 /* TerrariumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A877667921BFDF2D000BA6F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = aberke;
+				TargetAttributes = {
+					A877668021BFDF2E000BA6F6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A877669621BFDF32000BA6F6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A877668021BFDF2E000BA6F6;
+					};
+					A87766A121BFDF32000BA6F6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A877668021BFDF2E000BA6F6;
+					};
+				};
+			};
+			buildConfigurationList = A877667C21BFDF2D000BA6F6 /* Build configuration list for PBXProject "Terrarium" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A877667821BFDF2D000BA6F6;
+			productRefGroup = A877668221BFDF2E000BA6F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A877668021BFDF2E000BA6F6 /* Terrarium */,
+				A877669621BFDF32000BA6F6 /* TerrariumTests */,
+				A87766A121BFDF32000BA6F6 /* TerrariumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A877667F21BFDF2E000BA6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877668721BFDF2E000BA6F6 /* art.scnassets in Resources */,
+				A877669121BFDF32000BA6F6 /* LaunchScreen.storyboard in Resources */,
+				A877668E21BFDF32000BA6F6 /* Assets.xcassets in Resources */,
+				A877668C21BFDF2E000BA6F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877669521BFDF32000BA6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87766A021BFDF32000BA6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A877667D21BFDF2E000BA6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877668921BFDF2E000BA6F6 /* ViewController.swift in Sources */,
+				A877668521BFDF2E000BA6F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877669321BFDF32000BA6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877669C21BFDF32000BA6F6 /* TerrariumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877669E21BFDF32000BA6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87766A721BFDF32000BA6F6 /* TerrariumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A877669921BFDF32000BA6F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A877668021BFDF2E000BA6F6 /* Terrarium */;
+			targetProxy = A877669821BFDF32000BA6F6 /* PBXContainerItemProxy */;
+		};
+		A87766A421BFDF32000BA6F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A877668021BFDF2E000BA6F6 /* Terrarium */;
+			targetProxy = A87766A321BFDF32000BA6F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A877668A21BFDF2E000BA6F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A877668B21BFDF2E000BA6F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A877668F21BFDF32000BA6F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A877669021BFDF32000BA6F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A87766A921BFDF32000BA6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A87766AA21BFDF32000BA6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87766AC21BFDF32000BA6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = Terrarium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aberke.Terrarium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A87766AD21BFDF32000BA6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = Terrarium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aberke.Terrarium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A87766AF21BFDF32000BA6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = TerrariumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aberke.TerrariumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terrarium.app/Terrarium";
+			};
+			name = Debug;
+		};
+		A87766B021BFDF32000BA6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = TerrariumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aberke.TerrariumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terrarium.app/Terrarium";
+			};
+			name = Release;
+		};
+		A87766B221BFDF32000BA6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = TerrariumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aberke.TerrariumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Terrarium;
+			};
+			name = Debug;
+		};
+		A87766B321BFDF32000BA6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z68C3ND9V7;
+				INFOPLIST_FILE = TerrariumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aberke.TerrariumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Terrarium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A877667C21BFDF2D000BA6F6 /* Build configuration list for PBXProject "Terrarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87766A921BFDF32000BA6F6 /* Debug */,
+				A87766AA21BFDF32000BA6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87766AB21BFDF32000BA6F6 /* Build configuration list for PBXNativeTarget "Terrarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87766AC21BFDF32000BA6F6 /* Debug */,
+				A87766AD21BFDF32000BA6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87766AE21BFDF32000BA6F6 /* Build configuration list for PBXNativeTarget "TerrariumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87766AF21BFDF32000BA6F6 /* Debug */,
+				A87766B021BFDF32000BA6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87766B121BFDF32000BA6F6 /* Build configuration list for PBXNativeTarget "TerrariumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87766B221BFDF32000BA6F6 /* Debug */,
+				A87766B321BFDF32000BA6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A877667921BFDF2D000BA6F6 /* Project object */;
+}
