@@ -1,7 +1,7 @@
 # Augmented Reality Terrarium
 Augmented reality to mirror wall plants beyond their terrarium walls.
 
-TODO: Add images of results
+[![AR Demo in escape pod](./escape-pod-terrarium-front.jpg)](./escape-pod-dark-AR.mp4 "Watch video of AR demo in the escape pod")
 
 
 This is an augmented reality app, implemented with ARKit.  It was developed as part of project at the MIT Media Lab.
