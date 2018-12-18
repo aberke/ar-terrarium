@@ -98,8 +98,15 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         // Prepare the materials to be applied to the plane nodes.
         // The materials have physically based reflective properties
         // to reflect light on top of their images.
-        // TODO: replace with new image
-        let image = UIImage(named: "succulent")
+        // Make the terrarium window image on the plane more like the environment:
+        // If a dark AR target is detected, use the darker terrarium image
+        // Otherwise use the lighter terrarium image.
+        let image: UIImage;
+        if (referenceImage.name == "city-science-logo-dark") {
+            image = UIImage(named: "terrarium-window-dark")!;
+        } else {
+            image = UIImage(named: "terrarium-window-light-unnatural-warm")!;
+        }
         let imageMaterial = SCNMaterial()
         imageMaterial.diffuse.contents = image
         imageMaterial.lightingModel = .physicallyBased
